@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.support{
+    cursor: pointer;
+    display: inline-block;
+    background-color: #F7931A;
+    width: 100%;
+    height: 55px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+.support a{
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: #646464;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 93.75%;
+    cursor: pointer;
+}
+header .logo{
+    width: 132px;
+    height: 29px;
+}
+
+
+.dropcontent{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(173, 169, 169, 0.2);
+  z-index: 1;
+  align-items: left;
+  list-style: none;
+}
+.dropbutton{
+    position: relative;
+    display: inline-block;
+}
+.dropcontent a:hover {
+    background-color: rgb(232, 224, 224);
+}
+.dropbutton:hover .dropcontent{
+    display: block;
+}
+
+.mainsummary {
+    max-width: 770px;
+    margin: 0 auto 45px;
+    font-size: 321.5%;
+    color: #1C1F30;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+}
+.container{
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    padding: 130px 30px 50px;
+    background: #fff;
+}
+
+.btn-container{
+    padding: 10px;
+    text-align: center;
+}
+.btn-container a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: inherit;
+    padding: 15px 25px;
+    width: 290px;
+    height: 55px;
+    margin: 0 4px;
+    font-weight: 600;
+}
+.btn-dark{
+    background: #FF9500;
+    color: #fff;
+}
+.btn-white{
+    color: #FF7E00;
+    background: #fff;
+    border: 1px solid #FF7E00;
+}
+.mainvideo-btn-open {
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 0 0 65px;
+    background: url(https://bitcoin.org/img/icons/play-btn.svg?1528322191) left no-repeat;
+    background-size: contain;
+    border: none;
+}
+.mainvideo{
+    margin: 80px auto 0;
+    text-align: center;
+}
+.mainvideo a{
+    text-decoration: none;
+}
+.main1{
+    padding: 375px 0 130px;
+    background: url(https://bitcoin.org/img/hero/overview-bg.svg?1528322191) top no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.main1overview{
+    font-size: 162.5%;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+.main1card{
+    display: inline-block;
+    width: 260px;
+    height: 200px;
+    margin: 0 8px;
+    padding: 40px 32px 0;
+    text-align: center;
+    background: #090c14;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: inherit;
+    color: white;
+}
+.main1img{
+    margin: 0 auto 20px;
+}
+.main1card-title{
+    font-size: 137.5%;
+    line-height: 1.9;
+}
+.main1card-link{
+    font-size: 100%;
+    color: #9D9D9D;
+}
+.btn-tonext {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    background: #13161f;
+    transform: rotate(45deg) translate(-25%, 25%);
+}
+#arrow{
+    transform: rotate(-45deg) translate(-60%, 0%);
+}
+.main2{
+    padding: 100px 0 70px;
+   
+}
+.main2container{
+    width: 100%;
+    padding: 0% 10%;
+}
+.main2title{
+    margin: 0 0 50px;
+    font-size: 162.5%;
+    font-weight: normal;
+    color: #FF7E00;
+    text-align: center;
+}
+.main2content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 60px;
+}
+.main2text {
+    max-width: 67%;
+    margin: 0 0 90px;
+    font-size: 125%;
+    text-align: left;
+    color: #4D5060;
+    line-height: 1.5em;
+}
+.main2list{
+    padding: 0;
+}
+.main2li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    margin: 0 0 17px;
+    align-items: left;
+}
+.main2li p{
+    font-weight: 600;
+    font-size: 106.25%;
+    color: #13161F;
+    line-height: 1.5em;
+}
+.main2li-img{
+    width: 30px;
+    height: 30px;
+    margin: 0 25px 0 0;
+}
+
+.btn-black{
+    background:black;
+    color: #fff;
+}
+footer {
+    position: relative;
+    padding-top: 60px;
+    text-align: left;
+    color: #9D9D9D;
+    background: #13161f url(https://bitcoin.org/img/hero/footer-bg.svg?1528322191) top no-repeat;
+}
+.logo-footer {
+    display: block;
+    margin-bottom: 155px;
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.donatebtn{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+  
+}
+.footer-title{
+    color: white;
+    font-weight: 600;
+    font-size: 100%;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 52px;
+}
+.donate-btn {
+    width: 90px;
+    height: 35px;
+    margin-left: 30px;
+    padding: 4px 20px;
+}
+.footermenu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 665px;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+}
+.footermenu-item ul{
+   list-style: none;
+}
+.footermenu-list{
+    padding: 0;
+}
+.footermenu-item ul a{
+    text-decoration: none;
+    display: block;
+    font-size: 106.25%;
+    line-height: 34px;
+    color: inherit;
+}
+
+.footer-bottom {
+    margin-top: 55px;
+    padding: 25px 0;
+    background: #090C14;
+}
+
+.bottom-container{
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-right-block{
+    display: flex;
+}
+.footer-langselect{
+    padding-left: 40px;
+}
+
+.net-status {
+    display: inline-block;
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(https://bitcoin.org/img/icons/netstatus_normal.svg?1528322191);
+   
+}
