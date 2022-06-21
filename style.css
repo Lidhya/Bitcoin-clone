@@ -34,7 +34,7 @@ header{
 }
 header a{
     text-decoration: none;
-    color: #646464;
+    color: #13161F;
     padding: 10px;
     font-weight: 400;
     font-size: 93.75%;
@@ -45,27 +45,39 @@ header .logo{
     height: 29px;
 }
 
-
-.dropcontent{
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(173, 169, 169, 0.2);
-  z-index: 1;
-  align-items: left;
-  list-style: none;
+header ul li ul{
+    visibility: hidden;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 0;
 }
-.dropbutton{
-    position: relative;
+
+header ul li{
     display: inline-block;
 }
-.dropcontent a:hover {
-    background-color: rgb(232, 224, 224);
-}
-.dropbutton:hover .dropcontent{
+header ul li a{
     display: block;
 }
+header ul li ul li{
+    line-height: 1rem;
+    display: block;
+    width: 200px;
+    border-radius: 0;
+}
+header ul li:hover .dropcontent{
+    visibility: visible;
+}
+header ul li ul li:hover{
+    background-color: #DFDFDF;
+}
+#langdrop{
+    column-count: 2;
+    column-gap: 5px; 
+    left: 70vw;
+}
+
+
 
 .mainsummary {
     max-width: 770px;
